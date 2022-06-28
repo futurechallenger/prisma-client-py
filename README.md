@@ -151,7 +151,7 @@ Now that we have Prisma Client Python installed we need to actually generate the
 Copy the Prisma schema file shown above to a `schema.prisma` file in the root directory of your project and run:
 
 ```sh
-prisma db push
+prisma db push --schema your-directory/schema.prisma
 ```
 
 This command will add the data models to your database and generate the client, you should see something like this:
